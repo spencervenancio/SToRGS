@@ -1,0 +1,12 @@
+source_rule_file: external/threshold_functions.json
+source_rule_key: all_family
+score_file: results/genomics_dfim_baselines/scores.npz
+annotation_file: results/genomics_dfim_tiles/tiles.npz
+fixed_summary: results/genomics_dfim_baselines/summary.json
+field_summary: results/genomics_dfim_tfmodisco/summary.json
+output_directory: results/genomics_dfim_threshold_transfer
+normalization_floor: 1.0e-12
+feature_order: [q25, q50, q75, std, largest_gap, second_gap, top1_mass, top3_mass]
+selection: normalized_score_greater_than_or_equal_threshold
+zero_maps: select_none_and_flag
+randomness: none

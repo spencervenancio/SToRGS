@@ -1,0 +1,13 @@
+data_directory: data/dfim
+split_file: results/genomics_dfim_cnn/splits.npz
+split: test
+sequence_length: 200
+tile_width: 20
+target: task3
+overlap_rule: any_positive_base_overlap
+primary_role_priority:
+  - needed_motif
+  - present_but_unused_motif
+  - decoy
+  - background
+output_directory: results/genomics_dfim_tiles

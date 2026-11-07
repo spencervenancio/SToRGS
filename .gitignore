@@ -1,0 +1,25 @@
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Downloaded data and vendored upstream code. DFIM ships without a license, so
+# it is never redistributed; see README for how to fetch it.
+/data/
+
+# Run outputs. Every run is reproducible from its config + seed; commit the
+# config, not the artifact.
+/results/
+
+# Literature PDFs (copyright).
+lit/**/*.pdf
+
+.DS_Store
+.vscode/
+.idea/
+.claude/settings.local.json

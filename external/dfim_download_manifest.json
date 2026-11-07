@@ -1,0 +1,22 @@
+{
+  "source": "https://github.com/kundajelab/dfim",
+  "commit": "c3e22d7074f40ca29671488ce8a016d2c27a1541",
+  "downloaded_at": "2026-10-26T00:44:15.967402+00:00",
+  "files": {
+    "sequences.fa.gz": {
+      "bytes": 3589369,
+      "sha256": "f477c0d3d39079742ddff009091f6299bfcc841aadb4f4aaa4cd78fa4e6b5f24",
+      "lines": 120000
+    },
+    "labels.txt.gz": {
+      "bytes": 151202,
+      "sha256": "9803bce8f946a2c1dcb39d49f80cda97cbf42c1dd44098a1c5731e878a7a249e",
+      "lines": 60001
+    },
+    "simulation_metadata.txt.gz": {
+      "bytes": 4243495,
+      "sha256": "df4bf866f66586eb87894f72a2c923bad0489e54d8ed77a0de4cd36636cdcf04",
+      "lines": 60001
+    }
+  }
+}

@@ -1,0 +1,15 @@
+seed: 20261026
+data_directory: data/dfim
+model_directory: results/genomics_dfim_cnn
+tile_directory: results/genomics_dfim_tiles
+output_directory: results/genomics_dfim_baselines
+tile_width: 20
+batch_size: 256
+relative_fraction: 0.05
+pooled_target: 0.1
+control_replicates: 10
+calibration_split: validation
+evaluation_split: test
+score: absolute_observed_base_logit_gradient_sum
+shuffle: pinned_final_successor_dinucleotide
+threads: 1
